@@ -42,13 +42,13 @@ iskst()
 //
 //№3. Создать функцию, которая будет выдавать "ААА" если передать туда число 3(например)
 
-print("Введи букву 'А'")
+pprint("Введи букву 'А'")
 var slova = readLine()!
-var bukva = 0
+var bukva = ""
 func bish(){
     for _ in slova{
-        bukva += 1
+        bukva += "А"
     }
-    print("\(bukva)")    
+    print("\(bukva.count)")
 }
 bish()
